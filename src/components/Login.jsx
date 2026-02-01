@@ -6,8 +6,8 @@ function Login(props) {
   const [password, setPassword] = useState("");
   const [isSignUp, setIsSignUp] = useState(true);
 
-  function handleRegister() {
-    const response = fetch("http://localhost:8080/api/register", {
+ function handleRegister() {
+    const response =  fetch("http://localhost:8080/api/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

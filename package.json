@@ -1,5 +1,5 @@
 {
-  "name": "swiggy_clone",
+  "name": "swiggy_frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +13,7 @@
     "@reduxjs/toolkit": "^2.7.0",
     "@tailwindcss/vite": "^4.1.5",
     "axios": "^1.9.0",
+    "cors": "^2.8.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",

@@ -110,13 +110,13 @@ This frontend connects to a Node.js + Express backend that:
 ---
 ## 📸 Screenshots
 
-<img width="1916" height="1087" alt="Screenshot 2026-02-12 114459" src="https://github.com/user-attachments/assets/5640e94c-07f4-4b22-8d5c-ad1508fe60e4" />
+![Home Page] (<img width="1916" height="1087" alt="Screenshot 2026-02-12 114459" src="https://github.com/user-attachments/assets/5640e94c-07f4-4b22-8d5c-ad1508fe60e4" />)
 
-<img width="1895" height="1089" alt="Screenshot 2026-02-12 114545" src="https://github.com/user-attachments/assets/bbc34fe7-726a-468c-99b6-f8591a400677" />
+![Home Page] (<img width="1895" height="1089" alt="Screenshot 2026-02-12 114545" src="https://github.com/user-attachments/assets/bbc34fe7-726a-468c-99b6-f8591a400677" />)
 
-<img width="1910" height="1081" alt="Screenshot 2026-02-12 114852" src="https://github.com/user-attachments/assets/666df76f-7bed-48d7-956a-6ce2ff6acc09" />
+![Offers Page] (<img width="1910" height="1081" alt="Screenshot 2026-02-12 114852" src="https://github.com/user-attachments/assets/666df76f-7bed-48d7-956a-6ce2ff6acc09" />)
 
-<img width="1919" height="1092" alt="Screenshot 2026-02-12 115056" src="https://github.com/user-attachments/assets/99bbdf1c-ca7c-42d6-8660-b3b2455d29bb" />
+![SignIn Page] (<img width="1919" height="1092" alt="Screenshot 2026-02-12 115056" src="https://github.com/user-attachments/assets/99bbdf1c-ca7c-42d6-8660-b3b2455d29bb" />)
 
 ---
 

@@ -1,4 +1,4 @@
-# 🍔 Swiggy Clone – Frontend
+# 🍔 Swiggy-Style Restaurant App – Frontend
 
 A responsive food ordering frontend application inspired by Swiggy, built using **React**.  
 This project consumes a live restaurant API and integrates with a custom backend for authentication.

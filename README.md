@@ -90,12 +90,11 @@ Routes:
 
 ## ⚙️ Installation & Setup
 
-```bash
+bash
 git clone https://github.com/your-username/swiggy-frontend.git
 cd swiggy-frontend
 npm install
 npm start
-
 
 ---
 

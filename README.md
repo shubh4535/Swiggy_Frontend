@@ -125,6 +125,4 @@ This frontend connects to a Node.js + Express backend that:
 Shubham Singh
 Full Stack Developer (MERN)
 
----
-## 📁 Project Structure
 

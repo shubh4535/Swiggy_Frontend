@@ -1,80 +1,88 @@
-# 🍔 Swiggy-Style Restaurant App – Frontend
+# 🍔 Swiggy-Style Restaurant Listing App
 
-A responsive food ordering frontend application inspired by Swiggy, built using **React**.  
-This project consumes a live restaurant API and integrates with a custom backend for authentication.
+A responsive restaurant listing web application inspired by Swiggy, built using **React**.
 
-The application demonstrates modern frontend architecture including routing, state management, API handling, and authentication flow.
+This project fetches live restaurant data using the Swiggy API and demonstrates modern frontend development concepts including routing, state management, API handling, filtering logic, and authentication integration.
 
 ---
 
 ## 🌐 Live Demo
 
 🚀 Frontend (Vercel): https://your-frontend-link.vercel.app  
-🔗 Backend API: https://your-backend-link.onrender.com  
+🔗 Backend API (Auth): https://swiggy-backend-sapl.onrender.com
 
 ---
 
 ## 🚀 Features
 
-### 🏠 Home Page
-- Displays list of restaurants fetched dynamically from API
-- Responsive layout
-- Reusable Restaurant Card component
+### 🏠 Restaurant Listing
+- Fetches restaurant data dynamically using Swiggy API
+- Displays restaurant name, rating, cuisine, and delivery details
+- Responsive card-based UI
 
 ### ⭐ Rating Filter
 - “Top Rated” button
 - Filters restaurants with rating ≥ 4.3
-- Dynamic state-based filtering
+- Dynamic client-side filtering using React state
 
-### 🔐 Authentication
+### 🔐 Authentication (Integrated with Backend)
 - Signup & Login UI
-- Connected to backend APIs
+- Connected to custom Node.js backend
 - JWT-based authentication
 - Secure login flow
 
 ### 🧭 Routing
-- Implemented using React Router
-- Routes:
-  - `/` → Home
-  - `/login` → Login
-  - `/signup` → Signup
-  - `*` → Custom Error Page
+Implemented using **React Router**
 
-### 🧱 Layout
+Routes:
+- `/` → Restaurant Listing
+- `/login` → Login Page
+- `/signup` → Signup Page
+- `*` → Custom Error Page
+
+### 🧱 Layout & UI
 - Reusable Header component
 - Footer component
-- Centralized App layout
-- Error handling for invalid routes
+- Centralized layout structure
+- Clean and responsive design
 
 ---
 
 ## 🛠 Tech Stack
 
+**Frontend**
 - React
 - React Router
 - Redux Toolkit
 - JavaScript (ES6+)
 - CSS
-- Fetch API / Axios
-- Vercel (Deployment)
+
+**Integration**
+- Swiggy API (Restaurant Data)
+- Custom Backend (Authentication)
+- JWT Authentication
+
+**Deployment**
+- Vercel (Frontend)
+- Render (Backend)
 
 ---
 
-## 🧠 Architecture & Implementation Highlights
+## 🧠 Implementation Highlights
 
 - Component-based architecture
-- State management using Redux
-- Dynamic restaurant rendering from API
-- Conditional rendering for authentication state
-- Rating-based filtering logic
+- API data fetching with proper error handling
+- State-based filtering logic
+- Backend authentication integration
 - Clean folder structure
-- Integrated frontend with backend authentication APIs
+- Production-style deployment
 
---- 
+---
 
 ## 📁 Project Structure
 
 
+<img width="720" height="635" alt="Screenshot 2026-02-12 111840" src="https://github.com/user-attachments/assets/31733fc5-17ec-428e-8af8-2c5dc888bc5e" />
 
 
 
@@ -93,16 +101,23 @@ npm start
 
 ## 🔗 Backend Integration
 
-- This frontend connects to a Node.js + Express backend that:
-- Handles user authentication
-- Uses JWT for secure routes
+This frontend connects to a Node.js + Express backend that:
+- Registers users
+- Authenticates users using JWT
 - Hashes passwords using bcrypt
+- Protects routes using middleware
 - Follows MVC architecture
 
 ---
 ## 📸 Screenshots
 
-(Add screenshots here)
+<img width="1916" height="1087" alt="Screenshot 2026-02-12 114459" src="https://github.com/user-attachments/assets/5640e94c-07f4-4b22-8d5c-ad1508fe60e4" />
+
+<img width="1895" height="1089" alt="Screenshot 2026-02-12 114545" src="https://github.com/user-attachments/assets/bbc34fe7-726a-468c-99b6-f8591a400677" />
+
+<img width="1910" height="1081" alt="Screenshot 2026-02-12 114852" src="https://github.com/user-attachments/assets/666df76f-7bed-48d7-956a-6ce2ff6acc09" />
+
+<img width="1919" height="1092" alt="Screenshot 2026-02-12 115056" src="https://github.com/user-attachments/assets/99bbdf1c-ca7c-42d6-8660-b3b2455d29bb" />
 
 ---
 
